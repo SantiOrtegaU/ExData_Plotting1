@@ -1,4 +1,4 @@
-# Read Data, global active power consumption
+# Read Data, power consumption
 
 globalpower <- read.table("household_power_consumption.txt",sep=";",header=TRUE)
 subsetdata <- subset(globalpower,globalpower$Date=="1/2/2007"|globalpower$Date=="2/2/2007")
